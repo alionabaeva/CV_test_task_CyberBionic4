@@ -1,0 +1,438 @@
+@import url('https://fonts.google.com/specimen/Montserrat?subset=cyrillic;');
+@import url('https://ffont.ru/font/helvetica-neue-cyr;');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+    body {
+        background: #585c68;
+        font-size: 14px;
+    }
+
+    .resume {
+        max-width: 1000px;
+        min-width: 320px;
+        width: 850px;
+        height: auto;
+        display: flex;
+       margin: 50px auto 0px;
+       background: white;
+    }
+
+    .main-photo {
+        width: 295px;
+        height: 306px;
+        margin-left: -43px;
+        margin-right: 5px;
+    }
+
+    .resume_left {
+        margin-left: 57px;
+        position: relative;
+    }
+
+
+    .resume_right {
+        width: 100%;
+        height: 1000px;
+        position: relative;
+        margin-top: 71px;
+        margin-bottom: 30px;
+        margin-left: 27px;
+    }
+
+    .resume_right .name {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+
+.profile {
+    margin-bottom: 100px;
+}
+
+    .resume_right .profile-text {
+        font-size: 13px;
+        width: 417px;
+        height: 84px;
+        text-align: justify;
+        line-height: 20px;
+        margin-top: 20px;
+        color: #908989;
+    }
+
+    .education {
+        display: inline;
+    }
+
+    .education-description {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 106px;
+        margin-top: 20px;
+    }
+
+    .resume_right .education-description-name {
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+
+    }
+
+    .education-description-text {
+        font-size: 13px;
+    }
+
+    .education-description-text p {
+        padding-bottom: 10px;
+        color: #908989;
+        font-size: 14px;
+    }
+
+    /* ------------- work-experience -------------- */
+
+    .work-experience {
+        margin-right: 106px;
+        margin-top: 54px;
+    }
+    .work-name-date {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        margin-top: 8px;
+        color: #908989;
+    }
+
+    .work {
+        margin-top: 20px;
+    }
+
+    .work-name {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .work-description {
+        margin-top: 10px;
+    }
+
+    .work-description p {
+        font-size: 13px;
+        text-align: justify;
+        line-height: 20px;
+        color: #908989;
+    }
+
+    
+    /* ------------- skills -------------- */
+
+    .personal-skills {
+         width: 225px;
+         margin-bottom: 45px;
+    }
+
+    .line1 {
+        width: 100px;
+        height: 9px;
+        background-color: black;;
+        border-right: 10px solid #eac428;
+    }
+
+    .line2 {
+        width: 100px;
+        height: 9px;
+        background-color: black;;
+        border-right: 70px solid #eac428;
+    }
+
+    .line3 {
+        width: 100px;
+        height: 9px;
+        background-color: black;;
+        border-right: 20px solid #eac428;
+    }
+
+    .date-list {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 22px;
+    }
+
+    .name-list {
+        text-transform: uppercase;
+         font-weight: 700;
+          font-size: 20px;
+          letter-spacing: 3px;
+        margin-bottom: 20px;
+    }
+
+    .description-skill {
+        font-size: 13px;
+        color: #908989;
+    }
+
+    /*-- Languages--- */
+
+    .languages{
+    width: 225px; 
+    }
+
+    #french {
+        margin-top: -98px;
+        margin-left: 93px;
+        position: absolute;
+    }
+
+    .en-sp {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .romb {
+        width: 90px;
+    height: 90px;
+    position: relative;
+    }
+
+    .romb-2 {
+        width: 90px;
+    height: 90px;
+    position: relative;
+    top: -42px;
+    left: 67px;
+    }
+
+    .english-text {
+        left: 35px;
+    position: absolute;
+    top: 997px;
+    }
+
+    .spanish-text {
+        left: 143px;
+        position: absolute;
+        top: 997px;
+
+    }
+
+    /*-- Contacts--- */
+    .contacts {
+        margin-bottom: 45px;
+        background: #eac428;
+        width: 240px;
+        padding: 20px;
+    }
+
+    .contact-description {
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+
+    .phone {
+        margin-bottom: 9px;
+    }
+
+    .name-list-contact {
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        font-weight: 700;
+         font-size: 20px;
+            letter-spacing: 3px;
+    }
+
+    /*-----Hello--  */
+    .helloworld {
+        font-size: 41px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 11px;
+    margin-left: 26px;
+    }
+
+    .rebeca, .smith {
+        color: #eac428;;
+    }
+
+    .smith {
+        margin-left: 49px;
+    }
+
+    .name-surname {
+        display: flex;
+    }
+
+    .iam {
+        margin-right: 12px;
+    }
+
+    
+     
+
+    .yellow-line-left {
+        width: 29px;
+        height: 198px;
+        background: #eac428;
+        position: absolute;
+        left: -6px;
+        font-size: 41px;
+    font-weight: 700;
+    padding-top: 57px;
+    top: 263px;
+    }
+
+
+
+
+    .yellow-line {
+        width: 50px;
+        height: 160px;
+        background: #eac428;
+        position: absolute;
+        left: 459px;
+        top: -71px;
+    }
+
+    .yellow-seen-line-vertical {
+        width: 3px;
+        height: 1119px;
+        background: #eac428;
+        position: absolute;
+        left: -22px;
+        top: -50px;
+    }
+
+    .yellow-seen-line-horizontal-1 {
+        background: #eac428;
+        position: absolute;
+        height: 3px;
+        width: 128px;
+        left: -22px;
+        top: 24px;
+    }
+
+    .yellow-seen-line-horizontal-2 {
+        background: #eac428;
+        position: absolute;
+        height: 3px;
+        width: 170px;
+        left: -22px;
+        top: 252px;
+    }
+
+    .yellow-seen-line-horizontal-3 {
+        background: #eac428;
+        position: absolute;
+        height: 3px;
+        width: 264px;
+        left: -22px;
+        top: 420px;
+    }
+
+
+    .bottom {
+        max-width: 1000px;
+        height: 63px;
+        width: 850px;
+        background: #eac428;
+        margin: 0 auto;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 10px;
+       text-align: center;
+       padding-top: 10px;
+    }
+
+
+/* -------------------- Tablet vesion ------------------------- */
+@media (max-width: 768px) { 
+    .yellow-seen-line-horizontal-3 {
+        top: 427px;
+    }
+
+    .english-text, .spanish-text {
+        top: 1000px;
+    }
+
+    .yellow-seen-line-vertical {
+        height: 1131px;
+    }
+}
+
+
+
+    /* -------------------- Mobile vesion ------------------------- */
+@media (max-width: 576px) { 
+
+    .resume {
+        width: 536px;
+        flex-direction: column;
+    }
+
+    .resume_right {
+        margin-top: 4px;
+    }
+    
+    .main-photo {
+        margin-left: 161px; 
+    }
+
+    .helloworld {
+        margin-top: -51px;
+    }
+
+    .yellow-line-left {
+        padding-top: 257px;
+        top: 0px;
+        height: 392px;
+    }
+
+    .contacts {
+        width: 455px;   
+    }
+
+    .personal-skills {
+        width: 441px; 
+    }
+
+    .line1 {
+        width: 325px;
+        border-right: 123px solid #eac428;
+    }
+
+    .line2 {
+        width: 325px;
+        border-right: 43px solid #eac428;
+    }
+
+    .line3 {
+        width: 325px;
+        border-right: 22px solid #eac428;
+    }
+
+    .romb-2 {
+        top: -92px;
+        left: 235px;
+    }
+
+    .english-text, .spanish-text {
+        top: 941px; 
+    }
+
+    #french {
+        margin-top: -148px;
+        margin-left: 259px;
+    }
+
+    .bottom {
+        width: 536px;
+    }
+    
+}
